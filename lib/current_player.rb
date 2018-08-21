@@ -27,15 +27,8 @@ will work out whos turn it is based on if the
 number is odd or even
 =end 
 
-def current_player(board)
-  if turn_count(board) % 2 == 0 
-  return "X"
-  else 
-  return "O"
-end 
-end 
+
 
 def current_player(board)
   (turn_count(board).even? "X" : "O")
- 
 end 
