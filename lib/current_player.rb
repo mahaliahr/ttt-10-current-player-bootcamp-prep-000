@@ -21,6 +21,11 @@ end
 return counter
 end
 
+=begin
+iterate through array to check if contains "x" or "o"
+if contains "x" or "o" increment the counter
+=end 
+
 def current_player(board)
   turn_count
 end 
