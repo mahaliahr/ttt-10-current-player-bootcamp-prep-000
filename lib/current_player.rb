@@ -22,8 +22,9 @@ return counter
 end
 
 =begin
-iterate through array to check if contains "x" or "o"
-if contains "x" or "o" increment the counter
+turn returns how many turns have been played
+will work out whos turn it is based on if the 
+number is odd or even
 =end 
 
 def current_player(board)
